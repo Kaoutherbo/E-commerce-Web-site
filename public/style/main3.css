@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+  line-height: 1.5;
+  /*background-color: #decdcd;*/
+  background-image: url("./Capture 4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+.btn,.btn2{
+    border-radius: 30px;
+    border: none;
+    width:190px;
+    padding:0.7rem;
+    box-shadow: rgb(228, 238, 169);
+    transition: 0.4s;
+   cursor: pointer;
+   background-color:#b411d9;
+    color:#0e080f;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    font-size: 13px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn2{
+    margin-top: 8rem; 
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #ce3de8;
+}
+
+ul {
+    list-style: none;
+}
+
+header > nav {
+    background-color:#610775;
+    color: #fff;
+    padding: 1rem;
+}
+
+header > nav > ul {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+header > nav > ul > li > a {
+    color: #fff;
+    padding: 0.6rem 1.1rem;
+    border-radius: 50px;
+}
+
+header > nav > ul > li > a:hover {
+    color:#f0d4ec;
+    transition: 0.3s;
+    background-color: #220623;
+}
+
+#login {
+    grid-column: 3 / 4;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 0.4rem;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form > div {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+form > label {
+    display: block;
+    color:#220623;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form > input {
+    padding: 0.7rem;
+    border: 1px solid #ebe7e7;
+    border-radius: 20px;
+}
+
+form > input:focus {
+    outline: none;
+    border-color: #efecec;
+}
+.register{
+    background-image: url("./Capture 2.PNG");
+    justify-content: center;
+    border-radius: 20px;
+    width: 26rem;
+    height: 33rem;
+    box-shadow: #ccc;
+    margin-top: 0.7rem;
+    margin-left: 25rem;
+    cursor: pointer;
+}
+.login{
+    background-image: url("./Capture (3).PNG");
+    justify-content: center;
+    border-radius: 20px;
+    width: 26rem;
+    height: 25rem;
+    box-shadow: #ccc;
+    margin-top: 4rem;
+    margin-left: 25rem;
+    cursor: pointer;  
+}
